@@ -1,0 +1,43 @@
+body{
+    background-image: url(onee.jpg);
+    background-color: rgb(22, 145, 185);
+    justify-content: center;
+    align-items: center;
+    padding: 10% 10% 10% 30%;
+}
+ 
+.inside {
+    position: absolute;
+    background-color: rgb(27, 1, 68);
+    height: 400px;
+    width: 500px;
+    color: white;
+    border: 5px solid rgb(45, 58, 240);
+    justify-content: center;
+    text-align: center;
+}
+.team { 
+    width: 300px;
+    border: none;
+    color: blue;
+    border-bottom: 1px solid blue;
+    padding: 5px;
+    border-radius: 0;
+    background: rgb(27, 1, 68);
+    box-shadow: none;
+}
+input::placeholder {
+    color: blue;
+}
+.btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: white;
+    background: rgb(27, 1, 68);
+    font-size: 15px;
+    border: 3px solid white;
+}
+.btn:hover{
+    background-color: rgb(250, 3, 45);
+}
